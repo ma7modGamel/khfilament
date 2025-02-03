@@ -1,0 +1,32 @@
+/* RTL Support for Filament */
+html[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Flip Filament sidebar to RTL */
+html[dir="rtl"] .filament-sidebar-nav {
+    border-right: none;
+    border-left: 1px solid rgb(var(--gray-200));
+}
+
+/* Adjust form fields for RTL */
+html[dir="rtl"] .filament-forms-field-wrapper {
+    text-align: right;
+}
+
+/* Adjust buttons and icons for RTL */
+html[dir="rtl"] .filament-button {
+    flex-direction: row-reverse;
+}
+
+/* Adjust tables for RTL */
+html[dir="rtl"] .filament-tables-table th,
+html[dir="rtl"] .filament-tables-table td {
+    text-align: right;
+}
+
+/* Adjust dropdown menus for RTL */
+html[dir="rtl"] .filament-dropdown-list {
+    text-align: right;
+}
